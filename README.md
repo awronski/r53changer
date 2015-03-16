@@ -16,9 +16,9 @@ The library can takes up to three condition:
 
 # Example
 Lets say we want to change TTL and IP address only for the zones that meets below conditions:
-1) only the ".com" zones AND
-2) only the A records thats start with WWW
-3) only with value 111.222.333.444
+1. only the ".com" zones AND
+2. only the A records thats start with WWW
+3. only with value 111.222.333.444
 
 To: new TTL 300, new IP 123.123.123.123:
 
