@@ -5,7 +5,7 @@ r53changer is easy to use library for Amazon Route 53 zones batch updates.
 ```
 git clone https://github.com/awronski/r53changer.git
 cd r53changer
-mvn install
+gradle install
 ```
 
 # Usage

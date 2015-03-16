@@ -1,4 +1,4 @@
-package com.apwglobal.com.r53changer.utils;
+package com.apwglobal.r53changer.utils;
 
 import com.amazonaws.services.route53.AmazonRoute53Client;
 import com.amazonaws.services.route53.model.HostedZone;

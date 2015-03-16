@@ -1,4 +1,4 @@
-package com.apwglobal.com.r53changer.changerecord;
+package com.apwglobal.r53changer.changerecord;
 
 import com.amazonaws.services.route53.model.*;
 

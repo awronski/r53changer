@@ -1,10 +1,10 @@
-package com.apwglobal.com.r53changer.utils;
+package com.apwglobal.r53changer.utils;
 
 import com.amazonaws.services.route53.AmazonRoute53Client;
 import com.amazonaws.services.route53.model.HostedZone;
 import com.amazonaws.services.route53.model.ListResourceRecordSetsRequest;
 import com.amazonaws.services.route53.model.ResourceRecordSet;
-import com.apwglobal.com.r53changer.ZoneRecordPair;
+import com.apwglobal.r53changer.ZoneRecordPair;
 
 import java.util.List;
 import java.util.Set;

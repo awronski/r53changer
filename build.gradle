@@ -1,9 +1,9 @@
 apply plugin: 'java'
+apply plugin: 'maven'
 
-mainClassName = "com.apwglobal.com.r53changer.ChangerApp"
-
-sourceCompatibility = 1.8
 version = '1.0'
+group = 'com.apwglobal'
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -17,3 +17,12 @@ dependencies {
     );
 }
 
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            pom.version = version
+            pom.groupId = group
+            pom.artifactId = 'r53changer'
+        }
+    }
+}

@@ -1,10 +1,10 @@
-package com.apwglobal.com.r53changer;
+package com.apwglobal.r53changer;
 
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.services.route53.AmazonRoute53Client;
 import com.amazonaws.services.route53.model.*;
-import com.apwglobal.com.r53changer.utils.ZoneRecordPairs;
-import com.apwglobal.com.r53changer.utils.Zones;
+import com.apwglobal.r53changer.utils.ZoneRecordPairs;
+import com.apwglobal.r53changer.utils.Zones;
 
 import java.io.PrintStream;
 import java.util.Set;

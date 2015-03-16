@@ -1,4 +1,4 @@
-package com.apwglobal.com.r53changer;
+package com.apwglobal.r53changer;
 
 import com.amazonaws.services.route53.model.HostedZone;
 import com.amazonaws.services.route53.model.ResourceRecordSet;
